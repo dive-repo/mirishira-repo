@@ -56,6 +56,32 @@ h2{font-size:19px;letter-spacing:.13em;font-weight:600;margin:0}
 .personnel{display:grid;grid-template-columns:1fr 1fr;gap:16px}
 .person{
  border:1px solid #303732;background:#0d110f;padding:18px 20px;min-height:135px;
+}.photo-record{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:22px;
+}
+
+.photo-record figure{
+  width:100%;
+  margin:0;
+  padding:10px;
+  border:1px solid var(--line);
+  background:#0d110f;
+}
+
+.photo-record img{
+  display:block;
+  width:100%;
+  height:auto;
+}
+
+.photo-caption{
+  margin-top:2px;
+  color:var(--muted);
+  font:10px Consolas,monospace;
+  letter-spacing:.16em;
 }
 .person .name{font-weight:700;margin-bottom:8px}
 .person p{margin:0;color:#b9c2bc}
